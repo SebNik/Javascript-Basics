@@ -11,5 +11,7 @@ let person = {
 console.log(person.age)
 // Changing Value
 person.age = 50
+// Doing the same thing but different
+person['age'] = 20
 // Printing out changed value
 console.log(person.age)
