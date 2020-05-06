@@ -4,6 +4,6 @@ import React from 'react'
 //    return <h1>Hello Niklas!</h1>
 //}
 
-const Start = () => <h1>Hello Niklas!</h1>
+export const Start = () => <h1>Hello Niklas!</h1>
 
-export default Start
+//export default Start
