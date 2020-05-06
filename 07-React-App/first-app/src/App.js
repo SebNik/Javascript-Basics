@@ -5,7 +5,7 @@ import Start from './components/start'
 import Moin from './components/Moin'
 
 class App extends Component {
-  render () {
+  render() {
     return (
     <div className="App">
       <Start />
