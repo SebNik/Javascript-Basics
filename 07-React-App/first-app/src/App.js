@@ -11,7 +11,9 @@ class App extends Component {
     return (
     <div className="App">
       <Print name="Niklas" />
-      <Sum a="5" b="8" />
+      <Sum a="5" b="8" lul="lalala">
+        <p>Hi</p>  
+      </Sum>
     </div>
     );
   }
