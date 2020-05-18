@@ -6,7 +6,7 @@ import React from 'react'
 
 const Print = (props) => {
     console.log(props)
-    return <h1>Hello !</h1>
+return <h1>Hello {props.name}!</h1>
 }
 
 export default Print
