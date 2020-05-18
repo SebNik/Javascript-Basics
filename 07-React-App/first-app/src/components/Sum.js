@@ -14,7 +14,12 @@ import React, { Component } from 'react'
 
 class Sum extends Component {
     render() {
-        return <h1>Class Componet</h1>
+        return (
+            <div>
+                <h1>The Addition</h1>
+                <h5>The following number will be added together: {this.props.a} and {this.props.b}</h5>
+            </div>
+        )
     }
 }
 
