@@ -13,11 +13,21 @@
 import React, { Component } from 'react'
 
 class Sum extends Component {
+    add () {
+        console.log(this.props)
+        let sum_a_b = parseInt(this.props.a) + parseInt(this.props.b)
+        console.log(sum_a_b)
+        console.log(this.props.children)
+        return sum_a_b
+    }
+
     render() {
+        let summe = this.add()
         return (
             <div>
                 <h1>The Addition</h1>
                 <h5>The following number will be added together: {this.props.a} and {this.props.b}</h5>
+                <h5>This results in the following sum: {summe}</h5>
             </div>
         )
     }
