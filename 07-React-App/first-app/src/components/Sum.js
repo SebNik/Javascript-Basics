@@ -8,8 +8,6 @@
     // return <p>{sum_a_b}</p>
 // }
 
-//export default Sum
-
 import React, { Component } from 'react'
 
 class Sum extends Component {
