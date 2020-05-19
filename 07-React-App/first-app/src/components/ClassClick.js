@@ -20,7 +20,7 @@ export class ClassClick extends Component {
         return (
             <div>
                 <p>{this.state.message}</p>
-                <button onClick={this.clickHandler.bind(this)}>Click</button>
+                <button onClick={this.clickHandler}>Click</button>
             </div>
         )
     }
