@@ -8,15 +8,22 @@ class Counter extends Component {
     }
 
     add() {
-        this.setState(
-            { count: this.state.count+1 },
-            () => {
-                console.log(this.state.count)
-            }
+        // this.setState(
+            // { count: this.state.count+1 },
+            // () => {
+                // console.log(this.state.count)
+            // }
+        // )
+        this.setState( prevState => ({
+            count: prevState.count+1
+        }),
+        console.log(this.state.count)
         )
     }
 
     addFive() {
+        this.add()
+        this.add()
         this.add()
         this.add()
         this.add()
