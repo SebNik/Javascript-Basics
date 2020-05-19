@@ -16,11 +16,17 @@ class Counter extends Component {
         )
     }
 
+    addFive() {
+        this.add()
+        this.add()
+        this.add()
+    }
+
     render() {
         return (
             <div>
                 <h5>The count - {this.state.count}</h5>
-                <button onClick={() => this.add()}>button</button>
+                <button onClick={() => this.addFive()}>button</button>
             </div>
         )
     }
