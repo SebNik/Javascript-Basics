@@ -9,9 +9,11 @@ class Counter extends Component {
 
     click() {
         this.setState(
-            { count: this.state.count+1 }
+            { count: this.state.count+1 },
+            () => {
+                console.log(this.state.count)
+            }
         )
-        console.log(this.state.count)
     }
 
     render() {
