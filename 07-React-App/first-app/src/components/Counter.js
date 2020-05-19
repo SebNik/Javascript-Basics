@@ -16,9 +16,7 @@ class Counter extends Component {
         // )
         this.setState( prevState => ({
             count: prevState.count+1
-        }),
-        console.log(this.state.count)
-        )
+        }))
     }
 
     addFive() {
