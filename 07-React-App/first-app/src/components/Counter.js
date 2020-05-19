@@ -7,7 +7,7 @@ class Counter extends Component {
         this.state = { count: 0 }
     }
 
-    click() {
+    add() {
         this.setState(
             { count: this.state.count+1 },
             () => {
@@ -20,7 +20,7 @@ class Counter extends Component {
         return (
             <div>
                 <h5>The count - {this.state.count}</h5>
-                <button onClick={() => this.click()}>button</button>
+                <button onClick={() => this.add()}>button</button>
             </div>
         )
     }
