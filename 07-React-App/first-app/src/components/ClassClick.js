@@ -7,6 +7,8 @@ export class ClassClick extends Component {
         this.state = {
              message: "Hi!"
         }
+
+        this.clickHandler = this.clickHandler.bind(this)
     }
     
 
