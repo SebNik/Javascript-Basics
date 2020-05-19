@@ -6,12 +6,13 @@ import Moin from './components/Moin'
 import Print from './components/Print'
 import Sum from './components/Sum'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
 
 class App extends Component {
   render() {
     return (
     <div className="App">
-      <Counter />
+      <FunctionClick />
     </div>
     );
   }
